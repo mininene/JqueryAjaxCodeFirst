@@ -11,6 +11,7 @@ namespace AjaxCrudOperationUsingMVC5.Controllers
         public HomeController()
         {
             _context = new UsersContext();
+
         }
         public ActionResult Index()
         {
