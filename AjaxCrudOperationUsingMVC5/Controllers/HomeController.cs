@@ -49,6 +49,7 @@ namespace AjaxCrudOperationUsingMVC5.Controllers
             _context.SaveChanges();
             return Json(JsonRequestBehavior.AllowGet);
 
+
         }
     }
 }
