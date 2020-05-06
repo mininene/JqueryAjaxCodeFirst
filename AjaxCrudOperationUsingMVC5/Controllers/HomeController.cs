@@ -48,6 +48,7 @@ namespace AjaxCrudOperationUsingMVC5.Controllers
             _context.Users.Remove(data);
             _context.SaveChanges();
             return Json(JsonRequestBehavior.AllowGet);
+
         }
     }
 }
